@@ -1,0 +1,74 @@
+{
+    "operadores": [
+        {
+            "nombre": "Ash",
+            "nacionalidad": "Estados Unidos",
+            "rol": "Ataque",
+            "descripcion": "Ash es una operadora de ataque que utiliza un lanzador de proyectiles para destruir barricadas y muros.",
+            "imagen": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/rainbow-six/e/e9/Ash_1.jpg"
+        },
+        {
+            "nombre": "Castle",
+            "nacionalidad": "Estados Unidos",
+            "rol": "Defensa",
+            "descripcion": "Castle es un defensor que puede reforzar las barricadas con paneles de seguridad.",
+            "imagen": "https://i0.wp.com/www.thexboxhub.com/wp-content/uploads/2016/10/castler6.jpg?fit=600%2C338&ssl=1"
+        },
+        {
+            "nombre": "Pulse",
+            "nacionalidad": "Estados Unidos",
+            "rol": "Ataque",
+            "descripcion": "Pulse es un operador de ataque que utiliza un sensor de proximidad para detectar enemigos a través de paredes.",
+            "imagen": "https://image.api.playstation.com/cdn/UP0001/CUSA01800_00/r2bwf0wjiQYyQRZBX25Fm6ETmrZFfyfg.png?w=440&thumb=false"
+        },
+        {
+            "nombre": "Doc",
+            "nacionalidad": "Francia",
+            "rol": "Defensa",
+            "descripcion": "Doc es un defensor que puede revivir a sus compañeros de equipo y curarlos con su inyección.",
+            "imagen": "https://image.api.playstation.com/cdn/EP0001/CUSA01788_00/zOmyJgtl5avQbvwr1lzHLqGMytshkQzi.png?w=440&thumb=false"
+        },
+        {
+            "nombre": "Rook",
+            "nacionalidad": "Francia",
+            "rol": "Defensa",
+            "descripcion": "Rook proporciona chalecos balísticos a su equipo, aumentando su resistencia.",
+            "imagen": "https://dotesports.com/wp-content/uploads/2019/12/20143010/rook.png"
+        },
+        {
+            "nombre": "Twitch",
+            "nacionalidad": "Francia",
+            "rol": "Ataque",
+            "descripcion": "Twitch es una operadora de ataque que utiliza un dron para desactivar dispositivos defensivos.",
+            "imagen": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/rainbow-six/1/19/Twitch.jpg"
+        },
+        {
+            "nombre": "Sledge",
+            "nacionalidad": "Reino Unido",
+            "rol": "Ataque",
+            "descripcion": "Sledge es un operador de ataque que utiliza un martillo para destruir paredes y barricadas.",
+            "imagen": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/rainbow-six/2/25/Sledge.jpg?width=640"
+        },
+        {
+            "nombre": "Montagne",
+            "nacionalidad": "Francia",
+            "rol": "Ataque",
+            "descripcion": "Montagne es un operador de ataque que utiliza un escudo extensible para protegerse y cubrir a su equipo.",
+            "imagen": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/rainbow-six/6/65/R6S_Montagner.jpg"
+        },
+        {
+            "nombre": "Bandit",
+            "nacionalidad": "Alemania",
+            "rol": "Defensa",
+            "descripcion": "Bandit puede electrificar barricadas y muros reforzados para protegerlos de los ataques.",
+            "imagen": "https://pm1.aminoapps.com/7547/bda20cde65a5fa2db403f5877422b23b6222f652r1-963-736v2_00.jpg"
+        },
+        {
+            "nombre": "Jäger",
+            "nacionalidad": "Alemania",
+            "rol": "Defensa",
+            "descripcion": "Jäger puede interceptar y destruir granadas y otros proyectiles lanzados por el enemigo.",
+            "imagen": "https://preview.redd.it/tiux4e65v3sc1.jpeg?auto=webp&s=06941e61156049969d2264b6d1d6862fd4bfdbbf"
+        }
+    ]
+}
