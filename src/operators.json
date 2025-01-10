@@ -1,6 +1,7 @@
 {
     "operadores": [
         {
+            "id": 1,
             "nombre": "Ash",
             "nacionalidad": "Estados Unidos",
             "rol": "Ataque",
@@ -8,6 +9,7 @@
             "imagen": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/rainbow-six/e/e9/Ash_1.jpg"
         },
         {
+            "id": 2,
             "nombre": "Castle",
             "nacionalidad": "Estados Unidos",
             "rol": "Defensa",
@@ -15,6 +17,7 @@
             "imagen": "https://i0.wp.com/www.thexboxhub.com/wp-content/uploads/2016/10/castler6.jpg?fit=600%2C338&ssl=1"
         },
         {
+            "id": 3,
             "nombre": "Pulse",
             "nacionalidad": "Estados Unidos",
             "rol": "Ataque",
@@ -22,6 +25,7 @@
             "imagen": "https://image.api.playstation.com/cdn/UP0001/CUSA01800_00/r2bwf0wjiQYyQRZBX25Fm6ETmrZFfyfg.png?w=440&thumb=false"
         },
         {
+            "id": 4,
             "nombre": "Doc",
             "nacionalidad": "Francia",
             "rol": "Defensa",
@@ -29,6 +33,7 @@
             "imagen": "https://image.api.playstation.com/cdn/EP0001/CUSA01788_00/zOmyJgtl5avQbvwr1lzHLqGMytshkQzi.png?w=440&thumb=false"
         },
         {
+            "id": 5,
             "nombre": "Rook",
             "nacionalidad": "Francia",
             "rol": "Defensa",
@@ -36,6 +41,7 @@
             "imagen": "https://dotesports.com/wp-content/uploads/2019/12/20143010/rook.png"
         },
         {
+            "id": 6,
             "nombre": "Twitch",
             "nacionalidad": "Francia",
             "rol": "Ataque",
@@ -43,6 +49,7 @@
             "imagen": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/rainbow-six/1/19/Twitch.jpg"
         },
         {
+            "id": 7,
             "nombre": "Sledge",
             "nacionalidad": "Reino Unido",
             "rol": "Ataque",
@@ -50,6 +57,7 @@
             "imagen": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/rainbow-six/2/25/Sledge.jpg?width=640"
         },
         {
+            "id": 8,
             "nombre": "Montagne",
             "nacionalidad": "Francia",
             "rol": "Ataque",
@@ -57,6 +65,7 @@
             "imagen": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/rainbow-six/6/65/R6S_Montagner.jpg"
         },
         {
+            "id": 9,
             "nombre": "Bandit",
             "nacionalidad": "Alemania",
             "rol": "Defensa",
@@ -64,6 +73,7 @@
             "imagen": "https://pm1.aminoapps.com/7547/bda20cde65a5fa2db403f5877422b23b6222f652r1-963-736v2_00.jpg"
         },
         {
+            "id": 10,
             "nombre": "Jäger",
             "nacionalidad": "Alemania",
             "rol": "Defensa",

@@ -17,7 +17,7 @@ const CarruselOperadores = () => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-6">
+        <div className="flex flex-col items-center justify-center min-h-screen bg-[#006F8E] text-white p-6">
             {/* Contenedor principal */}
             <div className="flex flex-col items-center w-full max-w-4xl bg-gray-800 p-6 rounded-lg shadow-lg">
                 {/* Sección de texto e imagen */}
@@ -40,8 +40,6 @@ const CarruselOperadores = () => {
                         />
                     </div>
                 </div>
-
-
 
                 {/* Botones de navegación */}
                 <div className="flex mt-6 space-x-4">
