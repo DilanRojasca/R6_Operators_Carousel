@@ -17,51 +17,50 @@ const CarruselOperadores = () => {
     };
 
     return (
-        <div className="relative w-full max-w-xl mx-auto p-6 bg-gray-800 text-white rounded-lg shadow-lg">
-            {/* Contenedor de personaje actual */}
-            <div className='flex flex-col items-center'>
-                <img
-                    src={operators.operadores[currentIndex].imagen}
-                    alt={operators.operadores[currentIndex].nombre}
-                    className="w-40 h-40 object-cover rounded-full mb-4"
-                    style={{ width: "650px", height: "650px", objectFit: "cover" }}
-                />
-                <h2 className="text-2xl font-bold">{operators.operadores[currentIndex].nombre}</h2>
-                <p className="italic text-sm">{operators.operadores[currentIndex].nacionalidad}</p>
-                <p className="text-lg mt-2">{operators.operadores[currentIndex].rol}</p>
-                <p className="mt-4 text-center">{operators.operadores[currentIndex].descripcion}</p>
-            </div>
+        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-6">
+            {/* Contenedor principal */}
+            <div className="flex flex-col items-center w-full max-w-4xl bg-gray-800 p-6 rounded-lg shadow-lg">
+                {/* Sección de texto e imagen */}
+                <div className="flex flex-col lg:flex-row items-center w-full">
+                    {/* Sección de texto */}
+                    <div className="lg:w-1/3 mb-6 lg:mb-0 lg:pr-6">
+                        <h2 className="text-2xl font-bold mb-2">{operators.operadores[currentIndex].nombre}</h2>
+                        <p className="italic text-sm mb-1">{operators.operadores[currentIndex].nacionalidad}</p>
+                        <p className="text-lg font-semibold mb-4">{operators.operadores[currentIndex].rol}</p>
+                        <p className="text-sm">{operators.operadores[currentIndex].descripcion}</p>
+                    </div>
 
-            {/* Botones de navegación */}
-            <div className="absolute inset-y-0 left-4 flex items-center">
-                <button
-                    onClick={prevSlide}
-                    className="bg-gray-700 text-white p-2 rounded-full hover:bg-gray-600"
-                >
-                    &#8592;
-                </button>
-            </div>
-            <div className="absolute inset-y-0 right-4 flex items-center">
-                <button
-                    onClick={nextSlide}
-                    className="bg-gray-700 text-white p-2 rounded-full hover:bg-gray-600"
-                >
-                    &#8594;
-                </button>
-            </div>
+                    {/* Imagen centrada */}
+                    <div className="lg:w-2/3 flex justify-center mb-6 lg:mb-0">
+                        <img
+                            src={operators.operadores[currentIndex].imagen}
+                            alt={operators.operadores[currentIndex].nombre}
+                            style={{ width: "650px", height: "650px", objectFit: "cover" }}
+                            className="rounded-full"
+                        />
+                    </div>
+                </div>
 
 
+
+                {/* Botones de navegación */}
+                <div className="flex mt-6 space-x-4">
+                    <button
+                        onClick={prevSlide}
+                        className="bg-gray-700 text-white px-4 py-2 rounded-lg hover:bg-gray-600"
+                    >
+                        Anterior
+                    </button>
+                    <button
+                        onClick={nextSlide}
+                        className="bg-gray-700 text-white px-4 py-2 rounded-lg hover:bg-gray-600"
+                    >
+                        Siguiente
+                    </button>
+                </div>
+            </div>
         </div>
-
-
-    )
-
-
-
-
-
+    );
 };
-
-
 
 export default CarruselOperadores;
